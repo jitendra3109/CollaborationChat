@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heckthon</title>
+ 
+<style type="text/css">
+  
+
+body {
+    background-color:#D3D3D3;
+}
+
+h1 {
+  padding: 4px;
+  border:1px solid;
+   background-color: #d0e4fe;
+  text-align: center;
+    margin-left:150px;
+    margin-right:150px;
+    border-radius: .6em;
+
+
+} 
+
+img{
+  margin-left:400px; 
+}
+
+#text1{ margin-left: 230px;
+       border-radius: .6em;
+}
+#div1{
+ margin-left:220px;
+     
+}
+ img{ border-radius: .6em;
+  
+ }
+
+
+
+
+h4{
+  margin-left: 100px;
+  margin-top: 10px;
+  padding: 1px;
+
+}
+#navigation{
+ margin-left:350px;
+ margin-right:350px;
+ background-color:purpole;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+h1#heading{
+  color: blue;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+<form method="post" action="savedata.jsp">
+
+<h1 id="heading">The Heckthon </h1>
+
+
+<div id="navigation">
+
+
+
+<h4 id="h4">  <img src="hack.jpeg">Venue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  list="venue_list" name="value"/> </h4> 
+ <datalist id="venue_list">
+  <option value="College Campus"/>
+  <option value="Hostel Premices"/>
+  <option value="IIT-Gandhinagar"/>
+  <option value="PDPU"/>
+  <option value="DAIICT"/>
+</datalist> 
+ 
+
+<h4>Coder &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  size="15" min="0" max="500" name="audience" /></input> </h4>
+
+
+<h4>Hosting date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+       <input type="text" name="hostel" size="15"/>   </h4>
+
+
+<h4>Start time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="stime" size="10"/></h4>
+
+
+
+<h4>End time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="etime" size="10"/></h4>
+
+<h4>Facility</h4>
+<div id="div1">
+<input type="checkbox" name="vehicle1" value="Lemon"/>Hot beverages
+<input type="checkbox" name="vehicle1" value="alcohol"/> Snack</br>
+<input type="checkbox" name="vehicle1" value="Lemon"/> Lemonade
+<input type="checkbox" name="vehicle1" value="Lemon"/> Cold Drink
+
+ </div>
+<br/>
+<br/>
+
+<h4>Event Description </h4><textarea name="textarea" id="text1" rows="3" cols="40" ></textarea>
+
+<hr style="width:50%"/> <hr/>
+
+
+<h4>Event Hoster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  size="10" name="clubname" />
+</h4>
+<h4> Sponsor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="10" name="clubhead" /></h4>
+
+
+   <h4>Event Subject &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  width="100" height="100" name="event" /></h4>
+ 
+
+<h4>E-mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="text" name="email" size="15"/>
+         </h4>
+
+
+<h4> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="submit" value="Submit">
+  </h4>  
+
+</div>
+
+
+ </form>
+</body>
+</html>

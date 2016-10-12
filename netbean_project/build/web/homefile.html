@@ -1,0 +1,71 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="cssfile.css"/>
+    </head>
+    <body>
+        <form method="post" action="savedata.jsp">
+       <h1 id="heading">About the party</h1>
+
+
+<h4>Venue <input list="venue_list" name="value"/></h4>
+ <datalist id="venue_list">
+  <option value="College Campus"/>
+  <option value="Hostel Premices"/>
+  <option value="Street play"/>
+  <option value="Public Holl"/>
+  <option value="DAIICT"/>
+</datalist> 
+ 
+
+<h4>Audience <input type="number"  size="5" min="0" max="500" name="audience" /> </h4>
+
+
+<h4>Hosting date     
+       <input type="text" size="15" name="hostel"/>   </h4>
+
+
+<h4>Start time <input type="text" size="10" name="stime"/> </h4>
+
+
+
+<h4>End time <input type="text" size="10" name="etime" /> </h4>
+
+<h4>Drink </h4>
+<input type="checkbox" name="vehicle1" value="Lemon"/>Hot beverages
+<input type="checkbox" name="vehicle1" value="alcohol"/> Alchohol
+<input type="checkbox" name="vehicle1" value="Lemon"/> Lemonade
+<input type="checkbox" name="vehicle1" value="Lemon"/> Cold Drink
+ 
+
+<h4>Event Description </h4><textarea name="textarea" value="" ></textarea>
+
+
+<h2>Host By</h2>
+
+<h4>Club name <input type="text"  size="10" name="clubname" value=""/></h4>
+   <h4> Club Head <input type="text" size="10" name="clubhead"/></h4>
+
+
+   <h4>Event Subject <input type="text"  width="100" height="100" name="event" /></h4>
+ 
+
+<h4>E-mail: 
+     <input type="text" name="email" size="15" />
+         </h4>
+
+
+<h4> 
+    <input type="submit" value="ok" />
+  </h4>  
+  </form>
+
+    </body>
+</html>
